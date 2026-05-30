@@ -28,6 +28,8 @@ public class PlayerStateManager : MonoBehaviour
 
     void Start()
     {
+
+        Debug.Log("Dipak");
     }
     public void SetState(PlayerState newState)
     {
@@ -47,6 +49,10 @@ public class PlayerStateManager : MonoBehaviour
 
     //    isInputLocked = false;
     //}
+
+
+
+    
 
 
 }
